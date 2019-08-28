@@ -14,7 +14,7 @@ Check our [paper]() for more details.
 ## Installation
 
 Please refer to [MattNet](https://github.com/lichengunc/MAttNet) to install [mask-faster-rcnn](https://github.com/lichengunc/mask-faster-rcnn), [REFER](https://github.com/lichengunc/refer) and [refer-parser2](https://github.com/lichengunc/refer-parser2).
-Follow Step 1 & 2 in Training to prepate the data and features.
+Follow Step 1 & 2 in Training to prepare the data and features.
 
 ## Training
 
