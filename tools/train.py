@@ -10,11 +10,11 @@ import random
 
 # model
 import _init_paths
-from loaders.dataloader_git import DataLoader
-from layers.match_git import AdaptiveReconstruct
-import models.utils_git as model_utils
-import models.eval_git as eval
-from opt_git import parse_opt
+from loaders.dataloader import DataLoader
+from layers.match import AdaptiveReconstruct
+import models.utils as model_utils
+import models.eval as eval
+from opt import parse_opt
 
 import torch
 

@@ -5,10 +5,10 @@ from __future__ import print_function
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from layers.lang_encoder_git import RNNEncoder, PhraseAttention
-from layers.visual_encoder_git import LocationEncoder, SubjectEncoder, RelationEncoder
-from layers.lang_decoder_git import LocationDecoder, SubjectDecoder, RelationDecoder
-from layers.loss_git import AttributeReconstructLoss, LangReconstructionLoss, AdapVisualReconstructLoss, AdapLangReconstructLoss
+from layers.lang_encoder import RNNEncoder, PhraseAttention
+from layers.visual_encoder import LocationEncoder, SubjectEncoder, RelationEncoder
+from layers.lang_decoder import LocationDecoder, SubjectDecoder, RelationDecoder
+from layers.loss import AttributeReconstructLoss, LangReconstructionLoss, AdapVisualReconstructLoss, AdapLangReconstructLoss
 
 class Score(nn.Module):
     def __init__(self, vis_dim, lang_dim, jemb_dim):

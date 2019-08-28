@@ -22,7 +22,7 @@ import os.path as osp
 import numpy as np
 import h5py
 import random
-from loaders.loader_git import Loader
+from loaders.loader import Loader
 
 import torch
 from torch.autograd import Variable

@@ -14,9 +14,9 @@ import skimage.io as io
 
 # model
 import _init_paths
-from layers.match_git import AdaptiveReconstruct
-from loaders.dataloader_git import DataLoader
-import models.eval_git as eval
+from layers.match import AdaptiveReconstruct
+from loaders.dataloader import DataLoader
+import models.eval as eval
 
 # torch
 import torch
