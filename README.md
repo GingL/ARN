@@ -2,8 +2,8 @@
 
 ## Introduction
 
-This repository is Pytorch implementation of [Adaptive Reconstruction Network for Weakly Supervised Referring Expression Grounding]() in ICCV 2019.
-Check our [paper]() for more details.
+This repository is Pytorch implementation of [Adaptive Reconstruction Network for Weakly Supervised Referring Expression Grounding](https://arxiv.org/pdf/1908.10568.pdf) in ICCV 2019.
+Check our [paper](https://arxiv.org/pdf/1908.10568.pdf) for more details.
 
 ## Prerequisites
 
